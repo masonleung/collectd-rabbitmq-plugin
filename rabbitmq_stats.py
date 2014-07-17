@@ -84,7 +84,6 @@ def get_stats():
 
 def read_callback():
   stats = get_stats()
-  print stats
   if stats:
     for qname in stats:
       data = stats[qname]
